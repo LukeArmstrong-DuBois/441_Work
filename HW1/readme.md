@@ -1,0 +1,1 @@
+I was able to showcase my coding abilities while also explaining a little bit about who I am as a person. Since I finished my last coding class in December, I didn't write any code until this assignment. I feel like I was able to get back into the swing of things and prepare myself for learning more in the following weeks. 
