@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bobert the Bunnie's Quest for Warmth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+            <div class="container">
+        <h1>Bobert the Bunnie's Quest for Warmth</h1>
+        <div id="story">
+            <p id="story-text">On a cold winter night, a small bunny finds itself lost and freezing. Help find shelter before it's too late!<br> Do you want to hop into the dense forest or go across the open field?</p>
+            <button onclick="chooseForest()">Into the Forest</button>
+            <button onclick="chooseField()">Across the Field</button>
+        </div>
+        <div id="image-container">
+            <img id="story-image" src="bunsartpic.jpg" alt="Forest Path">
+        </div>
+    </div>
+    <p>This story is made for mature audiences, so please confirm that you're over the age of 18 so we don't get sued!</p>
+    <input type="number" id="age" placeholder="Enter your age">
+    <button onclick="checkAge(document.getElementById('age').value)">Check Age</button>
+    <p id="message"></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>
