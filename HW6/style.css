@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff99bd;
+    background-image: url('images/KirbyBack.png');
+    background-repeat: repeat;
+    background-size: 80px 80px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container, .game-container {
+    background-color: #ff82cd;
+    border: 2px solid #333;
+    padding: 20px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #000000;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input {
+    display: block;
+    margin: 5px 0;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7f006c;
+}
+
+#game-board {
+    margin-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.grid-item {
+    width: 100px;
+    height: 100px;
+    background-image: url('images/question mark icon.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #333;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.grid-item:hover {
+    transform: scale(1.1);
+    background-color: #666;
+}
+
+.grid-item.flipped {
+    background-color: #ffcc00;
+    background-image: none;
+}
