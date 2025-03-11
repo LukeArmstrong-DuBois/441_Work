@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #d2e9ff;
+  }
+  
+  #container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+  }
+
+  #shapes-container {
+    position: absolute;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+  }
+  
+  .shape {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    opacity: 0.7;
+    animation: move-shapes 2.5s infinite;
+  }
+  
+  .circle {
+    background-color: rgb(31, 255, 233);
+  }
+  
+  .square {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  .triangle {
+    background-color: rgb(255, 128, 0);
+  }
+  
+  @keyframes move-shapes {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(50%, -50%); }
+    50% { transform: translate(-50%, 50%); }
+    75% { transform: translate(25%, 25%); }
+    100% { transform: translate(0, 0); }
+  }
+  
+  
+  #text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold; 
+    color: #000;
+  }
+  
+  
+  #image {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: auto;
+    display: none;
+    animation: none;
+  }
+  
+  .spinning {
+    animation: spin 2s linear;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  
+    
+  .moving-image {
+    position: absolute;
+    width: 100px;
+    height: auto;
+  }
+  
+  
