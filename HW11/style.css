@@ -1,0 +1,88 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #2f1e1e, #5f3f53);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 20px;
+  color: #f3e5ab;
+  text-shadow: 2px 2px 5px #000;
+  animation: fadeIn 2s ease-in-out;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 20px;
+  color: #f3d4ab;
+  text-shadow: 2px 2px 5px #000;  
+  animation: fadeIn 2s ease-in-out;
+}
+
+#gameCanvas {
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 15px #fff, 0px 0px 25px #000 inset;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  display: block;
+  transition: background-color 0.5s, transform 0.5s ease;
+}
+
+#gameCanvas {
+  cursor: none; 
+}
+
+#gameCanvas:hover {
+  animation: pulse 2s infinite;
+  transform: scale(1.02);
+}
+
+button {
+  background: linear-gradient(45deg, #ff8c00, #ffa500);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0 4px #000;
+  transition: transform 0.3s, 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #ffa500, #ff8c00);
+  filter: brightness(1.2); 
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px #000;
+}
+
+@keyframes pulse {
+  0%, 100% {
+      box-shadow: 0 0 15px #fff;
+  }
+  50% {
+      box-shadow: 0 0 30px #f3e5ab;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+
+
