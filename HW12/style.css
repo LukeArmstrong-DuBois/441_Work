@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #000000, #3c0000);
+  color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+  text-align: center;
+  animation: background-flicker 3s infinite;
+}
+
+@keyframes background-flicker {
+  0%, 50%, 100% { background: linear-gradient(to bottom, #000000, #3c0000); }
+  25% { background: linear-gradient(to bottom, #1a0000, #570000); }
+  75% { background: linear-gradient(to bottom, #300000, #8b0000); }
+}
+
+header {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2.8em;
+  margin: 0;
+  color: crimson;
+  text-shadow: 0 0 10px red, 0 0 20px crimson;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0;
+  color: crimson;
+  text-shadow: 0 0 10px red, 0 0 20px crimson;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 5px 0;
+  text-shadow: 0 0 5px #8b0000;
+}
+
+#score {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff6666;
+  text-shadow: 0 0 8px #ff0000;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  border: 3px solid #8b0000;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px red, 0 0 40px darkred;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #550000;
+  border: 2px solid crimson;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px crimson;
+  text-shadow: 0 0 5px red;
+}
+
+button:hover {
+  background-color: #770000;
+  border-color: #ff0000;
+  box-shadow: 0 0 15px #ff6666;
+}
+
+#gameCanvas {
+  width: 800px;
+  height: 400px;
+}
+
+@keyframes element-flicker {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0.8; }
+}
+
+

@@ -1,0 +1,3 @@
+This project was really fun to make because I took a different approach to the previous weeks. Instead of creating a game, I wanted to make an interactive art piece whose primary purpose was to look cool. I added a lot of interactable objects to my project that spawned after being hit by the player. This created a really cool effect, as the "enemies" made a wave of color that tracked the player. 
+
+I learned a lot and am happy with the finished product. 
