@@ -1,0 +1,350 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5328,
+      "max": [
+        0.06472139060497284,
+        0.09530311077833176,
+        0.16606487333774567
+      ],
+      "min": [
+        -0.0645173117518425,
+        -0.18354879319667816,
+        -0.0015359147218987346
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 63936,
+      "componentType": 5126,
+      "count": 5328,
+      "max": [
+        0.9994423389434814,
+        0.9993559122085571,
+        0.999994158744812
+      ],
+      "min": [
+        -0.9965271949768066,
+        -0.9973640441894531,
+        -0.999998927116394
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5328,
+      "max": [
+        0.9996368288993835,
+        0.9997449517250061,
+        0.9998090267181396,
+        1.0
+      ],
+      "min": [
+        -0.9990648627281189,
+        -0.9999929070472717,
+        -0.9999971985816956,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5328,
+      "max": [
+        0.9963364005088806,
+        0.9985023140907288
+      ],
+      "min": [
+        0.001501394552178681,
+        0.0015010833740234375
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 42624,
+      "componentType": 5126,
+      "count": 5328,
+      "max": [
+        0.9963364005088806,
+        0.9985023140907288
+      ],
+      "min": [
+        0.001501394552178681,
+        0.0015010833740234375
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 85248,
+      "componentType": 5126,
+      "count": 5328,
+      "max": [
+        0.9963364005088806,
+        0.9985023140907288
+      ],
+      "min": [
+        0.001501394552178681,
+        0.0015010833740234375
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 127872,
+      "componentType": 5126,
+      "count": 5328,
+      "max": [
+        0.9963364005088806,
+        0.9985023140907288
+      ],
+      "min": [
+        0.001501394552178681,
+        0.0015010833740234375
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 170496,
+      "componentType": 5126,
+      "count": 5328,
+      "max": [
+        0.9963364005088806,
+        0.9985023140907288
+      ],
+      "min": [
+        0.001501394552178681,
+        0.0015010833740234375
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 28497,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "motionpix (https://sketchfab.com/motionpix)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/18th-century-oilan-45e522a09cf449cca25ef1c8000a5252",
+      "title": "18th century oilсan"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 113988,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 213120,
+      "byteOffset": 113988,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 127872,
+      "byteOffset": 327108,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 85248,
+      "byteOffset": 454980,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 540228,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/OilCan_baseColor.png"
+    },
+    {
+      "uri": "textures/OilCan_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/OilCan_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "OilCan",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5,
+            "TEXCOORD_3": 6,
+            "TEXCOORD_4": 7
+          },
+          "indices": 8,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.9774502090846763,
+        1.047714355550955e-08,
+        0.21116602179404342,
+        0.0,
+        0.21116602179404342,
+        1.1188229231962055e-09,
+        -0.9774502090846764,
+        0.0,
+        -1.047714355550955e-08,
+        1.0,
+        -1.118823034218508e-09,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "OilCan_0"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_4"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
